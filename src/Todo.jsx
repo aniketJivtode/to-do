@@ -17,7 +17,7 @@ function Todo() {
     setTodos(newTodos);
   };
 
-  const deleteTodo = (index) => {
+  const deleteTodos = (index) => {
     setTodos(todos.filter((_, i) => i !== index));
   };
 
